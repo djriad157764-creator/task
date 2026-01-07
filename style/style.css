@@ -64,6 +64,7 @@ nav .menu {
   font-size: 20px;
   font-weight: 600;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .btn2 {
   padding: 15px 20px;
@@ -74,6 +75,7 @@ nav .menu {
   font-size: 20px;
   font-weight: 600;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .btn:hover {
