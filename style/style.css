@@ -56,12 +56,12 @@ nav .menu {
   color: white;
 }
 .btn {
-  padding: 15px 20px;
-  border-radius: 15px;
+  padding: 13px 20px;
+  border-radius: 12px;
   border: none;
   background: #fd6e0a;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -253,54 +253,49 @@ nav .menu {
   margin: auto;
   margin-bottom: 117px;
 }
-footer {
+
+
+
+footer{
+  background: #e0d8d250;
+ padding: 130px 0;
+  
+}
+.footer-container{
+  display: flex;
+  margin: 0 auto;
+  gap: 117px;
   width: 71%;
   max-width: 1140px;
-  padding-top: 113px;
-  background: #130e0b10;
-  margin: auto;
-  margin-bottom: 100px;
 }
-.footer-section {
-  display: flex;
-  justify-content: space-between;
-  gap: 117px;
-}
-.footer-head {
+.footer-section{
   max-width: 562px;
 }
-.footer-head h2 {
+.footer-container h2{
   font-size: 35px;
   font-weight: bold;
-  color: #181818;
+  color:#181818 ;
   margin-bottom: 20px;
 }
-.footer-head p {
+.footer-section p{
   font-size: 16px;
   line-height: 28px;
-  color: #181818;
+  color:#474747 ;
   margin-bottom: 30px;
 }
-.icon {
-  display: flex;
-  gap: 24px;
+.footer-section .icon a{
+  margin-right: 24px;
 }
-input {
-  border: none;
-  margin: 10px 0;
-  width: 467px;
-  height: 64px;
-  padding: 15px;
-  border-radius: 10px;
-}
-textarea {
-  color: #fd6e0a;
+.footer-container form input[type="text"],
+.footer-container form input[type="email"],
+.footer-container form textarea{
+  width: 461px;
+  padding: 18px 31px;
   border: none;
   border-radius: 10px;
-  margin: 10px 0;
+  margin-bottom: 24px;
+  background: white;
 }
-
-
 
 
 @media screen and (max-width: 768px) {
